@@ -11,12 +11,6 @@ body{
   background-color: red;
 }
 
-.meet-out-team{
-  max-width: 1100px;
-  margin: auto;
-
-}
-
 /* header  */
 header{
   background-color: white;
@@ -29,4 +23,18 @@ h1{
   color: pink;
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.meet-out-team{
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* main  */
+.box{
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  padding: 15px;
 }
