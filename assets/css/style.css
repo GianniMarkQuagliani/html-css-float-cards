@@ -1,5 +1,32 @@
+/* reset  */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* general  */
+body{
+  padding: 40px 40px;
+  background-color: red;
+}
+
+.meet-out-team{
+  max-width: 1100px;
+  margin: auto;
+
+}
+
+/* header  */
+header{
+  background-color: white;
+  max-width: 100%;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+h1{
+  color: pink;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
