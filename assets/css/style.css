@@ -33,8 +33,13 @@ h1{
 /* main  */
 .box{
   background-color: green;
+  width: calc(100% / 3);
+  padding: 15px;
+}
+
+.card{
+  background-color: aqua;
   width: 20px;
   height: 20px;
   border: 2px solid black;
-  padding: 15px;
 }
