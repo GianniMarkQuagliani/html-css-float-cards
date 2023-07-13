@@ -7,7 +7,8 @@
 
 /* ho aggiunto un padding al body e ho sistemato lo spazio di sopra */
 body{
-  padding: 40px 40px;
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after{
@@ -37,7 +38,7 @@ header p{
 }
 
 h1{
-  color: rgb(212, 71, 104);
+  color: rgb(231, 50, 110);
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -55,7 +56,7 @@ h1{
 
 .card{
   background-color: rgb(15, 14, 23);
-  box-shadow: 5px 10px 18px #a7a4a4;
+  box-shadow: 5px 10px 18px rgb(195, 195, 194);
 }
 
 .card img{
