@@ -1,11 +1,11 @@
-/* reset  */
+/* ho fatto un reset  */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* general  */
+/* ho aggiunto un padding al body e ho sistemato lo spazio di sopra */
 body{
   padding: 40px 40px;
 }
@@ -25,7 +25,7 @@ body{
   margin: 0 auto;
   border: 1px solid white;
 }
-/* header  */
+/* reparto header, ho sistemato l'header, mettendo il titolo centrato, sistemando anche il font-size, ho sistemato anche i margini e i colori  */
 header{
   max-width: 100%;
   margin-bottom: 3rem;
@@ -47,7 +47,7 @@ h1{
   margin: auto;
 }
 
-/* main  */
+/* questa è la sezione main, ho aggiunto un width: calc(100% / 3) calcolando la larghezza dell'elemento, in questo caso di box, come il risultato della divisione nel 100%, che rappresenta la larghezza del contenitore padre, per 3, quindi box, avrà una larghezza equivalente a un terzo della larghezza del contenitore padre. Poi ho aggiunto dei colori, e sistemato i margini, e altro*/
 .box{
   width: calc(100% / 3);
   padding: 15px;
@@ -55,7 +55,7 @@ h1{
 
 .card{
   background-color: rgb(15, 14, 23);
-  box-shadow: 5px 10px 18px red;
+  box-shadow: 5px 10px 18px #a7a4a4;
 }
 
 .card img{
@@ -86,3 +86,12 @@ h3{
   color: white;
   margin-bottom: 0.4rem;
 }
+
+/* ho fixato il colore dei link */
+.card a{
+  color: rgb(110, 203, 205);
+  text-decoration: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
