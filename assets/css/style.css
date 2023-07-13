@@ -8,7 +8,6 @@
 /* general  */
 body{
   padding: 40px 40px;
-  background-color: red;
 }
 
 .clearfix::after{
@@ -20,16 +19,25 @@ body{
 .left{
   float: left;
 }
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
 /* header  */
 header{
-  background-color: white;
   max-width: 100%;
   margin-bottom: 3rem;
   text-align: center;
 }
 
+header p{
+  padding: 20px 20px 35px 20px;
+}
+
 h1{
-  color: pink;
+  color: rgb(212, 71, 104);
   font-size: 3rem;
   margin-bottom: 1rem;
 }
